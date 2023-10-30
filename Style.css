@@ -1,0 +1,137 @@
+body{
+    color: white;
+    background-color: black;
+}
+
+.header{
+    color: red;
+}
+
+.signbtn{
+    color: white;
+    background-color: red;
+}
+
+.main{
+    width: 100%;
+    margin-top: -100px;
+    background-size: cover;
+    align-items: center;
+    overflow-x: hidden;
+    justify-content: center;
+    display: flex;
+    background-position: center;
+    min-height: 710px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.604), rgba(0, 0, 0, 0.8)),
+      url(https://assets.nflxext.com/ffe/siteui/vlv3/dace47b4-a5cb-4368-80fe-c26f3e77d540/f5b52435-458f-498f-9d1d-ccd4f1af9913/IN-en-20231023-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+}
+  
+.area{
+    color: white;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+}
+  
+.area h1{
+    font-size: 60px;
+    word-spacing: 15px;
+    line-height: 75px;
+}
+  
+.area h3{
+    margin-top: -30px;
+    font-size: 27px;
+    font-weight: normal;
+}
+  
+.search{
+    width: 90%;
+    background-color: none;
+    min-height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-top: 10px;
+}
+  
+.box{
+    width: 90%;
+    min-height: 55px;
+}
+  
+.try{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: red;
+    min-height: 60px;
+    width: 70%;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+  
+.area h4 {
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+.container1{
+    width: 100%;
+    min-height: 460px;
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 375px;
+    background-color: black;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+  
+.footercon{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 50px;
+    background-color: transparent;
+}
+  
+.footer.flex1{
+    color: blanchedalmond;
+    justify-content: space-around;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 17px;
+    min-height: 30px;
+  
+}
+  
+.footer.flex1 h5{
+    align-self:flex-start;
+}
